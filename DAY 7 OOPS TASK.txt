@@ -1,0 +1,31 @@
+Write a “person” class to hold all the details.
+
+class person{}
+let personObj= new person();
+personObj.firstname="gowtham";
+personObj.lastname="kevin";
+personObj.fullname="gowtham kevin";
+personObj.age="23";
+personObj.eyecolor="brown";
+personObj.haircolor="black";
+personObj.height="174";
+personObj.educationalQualification=" Bachelor of engineering";
+personObj.work="Engineer";
+personObj.address={
+        city:"sivakasi",
+        district:"virudhunagar",
+        state:"TamilNadu",
+        country:"india",
+    }
+console.log(personObj);
+
+
+write a class to calculate uber price.
+
+var taxiFares;
+var taxiFare;
+var costPerKM=5;
+var distancetraveledKM=10;
+var GST=0.50;
+var taxiFares= "taxiFare="+(GST+(costPerKM*distancetraveledKM));
+console.log(taxiFares);
